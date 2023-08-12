@@ -21,7 +21,6 @@ def rescalem(n, nx, ny):
 
 
 def drawQuad(
-        # surface: pygame.Surface,
         color: int,
         x1: int,
         y1: int,
