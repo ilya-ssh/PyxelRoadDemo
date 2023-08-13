@@ -14,7 +14,7 @@ Small road demo using (only) Pyxel library featuring 2.5D road like in Outrun/Ro
 3. Player Y
 4. AI/Bots also with scalable sprites
 5. Lap count
-...
+
 
 ## Requirements:
 1. Python 3.10
