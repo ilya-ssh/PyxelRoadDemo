@@ -1,6 +1,6 @@
 # PyxelRoadDemo
 
-This demo uses road 3d projection method. It features hills, corners, scaling sprites, tracking player position, looping track, parallax background using python and pyxel library as a base to display stuff. You can read about the maths behind all of this here http://www.extentofthejam.com/pseudo/  
+This demo uses road 3d projection method. It features hills, corners, scaling sprites, tracking player position, looping track, parallax background using python and pyxel library as a base to display stuff. Sprite scaling is heavily optimised as  for loops in python can be extremely slow and thus affect fps. You can read about the maths behind all of this here http://www.extentofthejam.com/pseudo/  
 ![newgif123](https://github.com/ChazyChazZz/PyxelRoadDemo/assets/21025379/4cdd781f-b150-4a20-8dfe-9b956c593673)
 
 
