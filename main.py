@@ -128,7 +128,6 @@ def is_ccw(p1, p2, p3):
 
 def is_inside_triangle(p1, p2, p3, point):
     # Check if the point is inside the triangle formed by p1, p2, p3
-    # using the barycentric coordinate method
     u = ((p2[0] - p1[0]) * (point[1] - p1[1]) - (p2[1] - p1[1]) * (point[0] - p1[0])) / (
                 (p2[1] - p1[1]) * (p3[0] - p2[0]) - (p2[0] - p1[0]) * (p3[1] - p2[1]))
     v = ((p3[0] - p2[0]) * (point[1] - p2[1]) - (p3[1] - p2[1]) * (point[0] - p2[0])) / (
